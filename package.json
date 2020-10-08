@@ -1,0 +1,19 @@
+{
+  "name": "google-drive-uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "google-drive-uploader": "./bin/google-drive-uploader.js"
+  },
+  "dependencies": {
+    "googleapis": "^60.0.1",
+    "mime-types": "^2.1.27"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "upload": "./bin/google-drive-uploader.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
